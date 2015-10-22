@@ -12,6 +12,12 @@
 		C26CE2751BD97DDD005C9E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26CE2731BD97DDD005C9E03 /* Main.storyboard */; };
 		C26CE2771BD97DDD005C9E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26CE2761BD97DDD005C9E03 /* Assets.xcassets */; };
 		C26CE27A1BD97DDD005C9E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26CE2781BD97DDD005C9E03 /* LaunchScreen.storyboard */; };
+		C26CE2821BD98112005C9E03 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2811BD98112005C9E03 /* NewsFeedViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C26CE2841BD9811A005C9E03 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2831BD9811A005C9E03 /* RequestsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C26CE2861BD98120005C9E03 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2851BD98120005C9E03 /* MessagesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C26CE2881BD9812B005C9E03 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2871BD9812B005C9E03 /* NotificationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C26CE28A1BD98131005C9E03 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2891BD98131005C9E03 /* MoreViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C26CE28C1BD98484005C9E03 /* ThrillistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE28B1BD98484005C9E03 /* ThrillistDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		C26CE2761BD97DDD005C9E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C26CE2791BD97DDD005C9E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C26CE27B1BD97DDD005C9E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26CE2811BD98112005C9E03 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		C26CE2831BD9811A005C9E03 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		C26CE2851BD98120005C9E03 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		C26CE2871BD9812B005C9E03 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		C26CE2891BD98131005C9E03 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		C26CE28B1BD98484005C9E03 /* ThrillistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +68,13 @@
 			children = (
 				C26CE26F1BD97DDD005C9E03 /* AppDelegate.swift */,
 				C26CE2711BD97DDD005C9E03 /* ViewController.swift */,
+				C26CE2811BD98112005C9E03 /* NewsFeedViewController.swift */,
+				C26CE2831BD9811A005C9E03 /* RequestsViewController.swift */,
+				C26CE2851BD98120005C9E03 /* MessagesViewController.swift */,
+				C26CE2871BD9812B005C9E03 /* NotificationsViewController.swift */,
+				C26CE2891BD98131005C9E03 /* MoreViewController.swift */,
 				C26CE2731BD97DDD005C9E03 /* Main.storyboard */,
+				C26CE28B1BD98484005C9E03 /* ThrillistDetailViewController.swift */,
 				C26CE2761BD97DDD005C9E03 /* Assets.xcassets */,
 				C26CE2781BD97DDD005C9E03 /* LaunchScreen.storyboard */,
 				C26CE27B1BD97DDD005C9E03 /* Info.plist */,
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26CE28A1BD98131005C9E03 /* MoreViewController.swift in Sources */,
+				C26CE2861BD98120005C9E03 /* MessagesViewController.swift in Sources */,
 				C26CE2721BD97DDD005C9E03 /* ViewController.swift in Sources */,
 				C26CE2701BD97DDD005C9E03 /* AppDelegate.swift in Sources */,
+				C26CE2881BD9812B005C9E03 /* NotificationsViewController.swift in Sources */,
+				C26CE2841BD9811A005C9E03 /* RequestsViewController.swift in Sources */,
+				C26CE2821BD98112005C9E03 /* NewsFeedViewController.swift in Sources */,
+				C26CE28C1BD98484005C9E03 /* ThrillistDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
