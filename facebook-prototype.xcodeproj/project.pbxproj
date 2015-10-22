@@ -18,6 +18,9 @@
 		C26CE2881BD9812B005C9E03 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2871BD9812B005C9E03 /* NotificationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C26CE28A1BD98131005C9E03 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2891BD98131005C9E03 /* MoreViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C26CE28C1BD98484005C9E03 /* ThrillistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE28B1BD98484005C9E03 /* ThrillistDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C26CE28E1BD98754005C9E03 /* CreateStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE28D1BD98754005C9E03 /* CreateStatusViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C26CE2901BD98761005C9E03 /* CreatePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE28F1BD98761005C9E03 /* CreatePhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C26CE2921BD9876B005C9E03 /* CreateCheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2911BD9876B005C9E03 /* CreateCheckinViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		C26CE2871BD9812B005C9E03 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		C26CE2891BD98131005C9E03 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		C26CE28B1BD98484005C9E03 /* ThrillistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistDetailViewController.swift; sourceTree = "<group>"; };
+		C26CE28D1BD98754005C9E03 /* CreateStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateStatusViewController.swift; sourceTree = "<group>"; };
+		C26CE28F1BD98761005C9E03 /* CreatePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePhotoViewController.swift; sourceTree = "<group>"; };
+		C26CE2911BD9876B005C9E03 /* CreateCheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCheckinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 				C26CE2871BD9812B005C9E03 /* NotificationsViewController.swift */,
 				C26CE2891BD98131005C9E03 /* MoreViewController.swift */,
 				C26CE2731BD97DDD005C9E03 /* Main.storyboard */,
+				C26CE28D1BD98754005C9E03 /* CreateStatusViewController.swift */,
+				C26CE28F1BD98761005C9E03 /* CreatePhotoViewController.swift */,
+				C26CE2911BD9876B005C9E03 /* CreateCheckinViewController.swift */,
 				C26CE28B1BD98484005C9E03 /* ThrillistDetailViewController.swift */,
 				C26CE2761BD97DDD005C9E03 /* Assets.xcassets */,
 				C26CE2781BD97DDD005C9E03 /* LaunchScreen.storyboard */,
@@ -158,7 +167,10 @@
 				C26CE2721BD97DDD005C9E03 /* ViewController.swift in Sources */,
 				C26CE2701BD97DDD005C9E03 /* AppDelegate.swift in Sources */,
 				C26CE2881BD9812B005C9E03 /* NotificationsViewController.swift in Sources */,
+				C26CE28E1BD98754005C9E03 /* CreateStatusViewController.swift in Sources */,
+				C26CE2921BD9876B005C9E03 /* CreateCheckinViewController.swift in Sources */,
 				C26CE2841BD9811A005C9E03 /* RequestsViewController.swift in Sources */,
+				C26CE2901BD98761005C9E03 /* CreatePhotoViewController.swift in Sources */,
 				C26CE2821BD98112005C9E03 /* NewsFeedViewController.swift in Sources */,
 				C26CE28C1BD98484005C9E03 /* ThrillistDetailViewController.swift in Sources */,
 			);
