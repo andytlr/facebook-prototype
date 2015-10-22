@@ -302,11 +302,33 @@
                                     <action selector="tapBackButton:" destination="IeQ-Lf-bfJ" eventType="touchUpInside" id="Hd1-BE-7Jl"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" id="SUY-gk-Ieq">
+                                <rect key="frame" x="0.0" y="476" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="comment_bar" id="hX4-Bt-uC2">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Write a comment…" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="EHo-gx-61I">
+                                        <rect key="frame" x="42" y="8" width="213" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="selectInput:" destination="IeQ-Lf-bfJ" eventType="touchUpInside" id="QNn-DY-wJa"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="3CY-m1-L2p"/>
                     <connections>
+                        <outlet property="commentBar" destination="SUY-gk-Ieq" id="aQy-Ud-DQf"/>
+                        <outlet property="commentFieldImage" destination="hX4-Bt-uC2" id="YxY-Wj-Zct"/>
                         <outlet property="imageView" destination="DLh-Qj-7ez" id="2pg-PG-rDd"/>
                         <outlet property="likeButton" destination="01j-87-AbV" id="ifr-Ql-VYa"/>
                         <outlet property="scrollView" destination="aMK-XL-GJl" id="61S-Wv-Ogg"/>
@@ -474,6 +496,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="comment_bar" width="320" height="44"/>
         <image name="compose" width="320" height="46"/>
         <image name="create_checkin" width="320" height="568"/>
         <image name="create_photo" width="320" height="568"/>

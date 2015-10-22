@@ -14,6 +14,10 @@ class ThrillistDetailViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var imageView: UIImageView!
     
+    @IBOutlet weak var commentBar: UIView!
+    
+    @IBOutlet weak var commentFieldImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -31,6 +35,9 @@ class ThrillistDetailViewController: UIViewController {
     
     @IBAction func tapBackButton(sender: AnyObject) {
         self.navigationController?.popViewControllerAnimated(true)
+    }
+    @IBAction func selectInput(sender: AnyObject) {
+        commentBar.transform = CGAffineTransformMakeTranslation(0, -380)
     }
 
     /*
