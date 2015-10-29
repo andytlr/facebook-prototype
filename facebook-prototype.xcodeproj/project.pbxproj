@@ -12,15 +12,17 @@
 		C26CE2751BD97DDD005C9E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26CE2731BD97DDD005C9E03 /* Main.storyboard */; };
 		C26CE2771BD97DDD005C9E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26CE2761BD97DDD005C9E03 /* Assets.xcassets */; };
 		C26CE27A1BD97DDD005C9E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26CE2781BD97DDD005C9E03 /* LaunchScreen.storyboard */; };
-		C26CE2821BD98112005C9E03 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2811BD98112005C9E03 /* NewsFeedViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C26CE2841BD9811A005C9E03 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2831BD9811A005C9E03 /* RequestsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C26CE2861BD98120005C9E03 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2851BD98120005C9E03 /* MessagesViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C26CE2881BD9812B005C9E03 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2871BD9812B005C9E03 /* NotificationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C26CE28A1BD98131005C9E03 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2891BD98131005C9E03 /* MoreViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C26CE28C1BD98484005C9E03 /* ThrillistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE28B1BD98484005C9E03 /* ThrillistDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C26CE28E1BD98754005C9E03 /* CreateStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE28D1BD98754005C9E03 /* CreateStatusViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C26CE2901BD98761005C9E03 /* CreatePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE28F1BD98761005C9E03 /* CreatePhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C26CE2921BD9876B005C9E03 /* CreateCheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2911BD9876B005C9E03 /* CreateCheckinViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C26CE2821BD98112005C9E03 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2811BD98112005C9E03 /* NewsFeedViewController.swift */; };
+		C26CE2841BD9811A005C9E03 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2831BD9811A005C9E03 /* RequestsViewController.swift */; };
+		C26CE2861BD98120005C9E03 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2851BD98120005C9E03 /* MessagesViewController.swift */; };
+		C26CE2881BD9812B005C9E03 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2871BD9812B005C9E03 /* NotificationsViewController.swift */; };
+		C26CE28A1BD98131005C9E03 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2891BD98131005C9E03 /* MoreViewController.swift */; };
+		C26CE28C1BD98484005C9E03 /* ThrillistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE28B1BD98484005C9E03 /* ThrillistDetailViewController.swift */; };
+		C26CE28E1BD98754005C9E03 /* CreateStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE28D1BD98754005C9E03 /* CreateStatusViewController.swift */; };
+		C26CE2901BD98761005C9E03 /* CreatePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE28F1BD98761005C9E03 /* CreatePhotoViewController.swift */; };
+		C26CE2921BD9876B005C9E03 /* CreateCheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26CE2911BD9876B005C9E03 /* CreateCheckinViewController.swift */; };
+		C2DD061F1BE2B41F00209944 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DD061E1BE2B41F00209944 /* Common.swift */; };
+		C2DD06211BE2B46300209944 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DD06201BE2B46300209944 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		C26CE28D1BD98754005C9E03 /* CreateStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateStatusViewController.swift; sourceTree = "<group>"; };
 		C26CE28F1BD98761005C9E03 /* CreatePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePhotoViewController.swift; sourceTree = "<group>"; };
 		C26CE2911BD9876B005C9E03 /* CreateCheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCheckinViewController.swift; sourceTree = "<group>"; };
+		C2DD061E1BE2B41F00209944 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		C2DD06201BE2B46300209944 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,11 @@
 				C26CE2811BD98112005C9E03 /* NewsFeedViewController.swift */,
 				C26CE2831BD9811A005C9E03 /* RequestsViewController.swift */,
 				C26CE2851BD98120005C9E03 /* MessagesViewController.swift */,
+				C2DD061E1BE2B41F00209944 /* Common.swift */,
 				C26CE2871BD9812B005C9E03 /* NotificationsViewController.swift */,
 				C26CE2891BD98131005C9E03 /* MoreViewController.swift */,
 				C26CE2731BD97DDD005C9E03 /* Main.storyboard */,
+				C2DD06201BE2B46300209944 /* LoginViewController.swift */,
 				C26CE28D1BD98754005C9E03 /* CreateStatusViewController.swift */,
 				C26CE28F1BD98761005C9E03 /* CreatePhotoViewController.swift */,
 				C26CE2911BD9876B005C9E03 /* CreateCheckinViewController.swift */,
@@ -166,12 +172,14 @@
 				C26CE2861BD98120005C9E03 /* MessagesViewController.swift in Sources */,
 				C26CE2721BD97DDD005C9E03 /* ViewController.swift in Sources */,
 				C26CE2701BD97DDD005C9E03 /* AppDelegate.swift in Sources */,
+				C2DD061F1BE2B41F00209944 /* Common.swift in Sources */,
 				C26CE2881BD9812B005C9E03 /* NotificationsViewController.swift in Sources */,
 				C26CE28E1BD98754005C9E03 /* CreateStatusViewController.swift in Sources */,
 				C26CE2921BD9876B005C9E03 /* CreateCheckinViewController.swift in Sources */,
 				C26CE2841BD9811A005C9E03 /* RequestsViewController.swift in Sources */,
 				C26CE2901BD98761005C9E03 /* CreatePhotoViewController.swift in Sources */,
 				C26CE2821BD98112005C9E03 /* NewsFeedViewController.swift in Sources */,
+				C2DD06211BE2B46300209944 /* LoginViewController.swift in Sources */,
 				C26CE28C1BD98484005C9E03 /* ThrillistDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +328,7 @@
 				C26CE2801BD97DDD005C9E03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
