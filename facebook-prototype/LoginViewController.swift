@@ -62,6 +62,8 @@ class LoginViewController: UIViewController {
                 self.loginButon.selected = false
                 
                 if self.usernameInput.text == "ben" && self.passwordInput.text == "security" {
+                    // login successful
+                    self.performSegueWithIdentifier("login", sender: nil)
                 } else {
                     let alertController = UIAlertController(title: "Username or Password Wrong", message: "Fix it yo.", preferredStyle: .Alert)
                     

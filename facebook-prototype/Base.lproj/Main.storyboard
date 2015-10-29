@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Dw6-Fi-YL0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RcS-af-YOx">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
@@ -151,6 +151,11 @@
                                             <segue destination="IeQ-Lf-bfJ" kind="push" id="g1b-dY-dmE"/>
                                         </connections>
                                     </button>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" id="ybQ-UR-k0t">
+                                        <rect key="frame" x="142" y="176" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                    </activityIndicatorView>
                                 </subviews>
                                 <animations/>
                             </scrollView>
@@ -185,12 +190,13 @@
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.82745098039215681" green="0.83921568627450982" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="News Feed" id="i30-or-X9y"/>
                     <connections>
                         <outlet property="imageView" destination="vmf-I4-iWS" id="IIa-Hg-6EC"/>
                         <outlet property="scrollView" destination="nVj-Dk-rVh" id="nEF-0v-hvz"/>
+                        <outlet property="spinner" destination="ybQ-UR-k0t" id="6hW-7C-Lhl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Q4-fq-0hN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -524,6 +530,7 @@
                         <outlet property="signUpLabel" destination="ZVg-ZQ-7lU" id="rNH-z5-PAE"/>
                         <outlet property="spinner" destination="fmw-RT-hQc" id="N8X-rk-1Kn"/>
                         <outlet property="usernameInput" destination="6e0-rJ-nEb" id="hGt-jE-B5R"/>
+                        <segue destination="RcS-af-YOx" kind="modal" identifier="login" animates="NO" modalTransitionStyle="crossDissolve" id="dIP-r6-QNw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z7X-3k-vlB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -539,6 +546,7 @@
         <scene sceneID="lYu-Ac-iEg">
             <objects>
                 <tabBarController id="RcS-af-YOx" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xE0-qc-UEC"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="fN5-Fq-sXm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>

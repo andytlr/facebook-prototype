@@ -12,10 +12,25 @@ class NewsFeedViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
+    
+    override func viewWillAppear(animated: Bool) {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        imageView.alpha = 0
+        spinner.startAnimating()
+        scrollView.userInteractionEnabled = false
+        
+        delay(2.0) {
+            self.spinner.stopAnimating()
+            self.imageView.alpha = 1
+            self.scrollView.userInteractionEnabled = true
+        }
+        
         scrollView.contentSize = imageView.frame.size
     }
 
