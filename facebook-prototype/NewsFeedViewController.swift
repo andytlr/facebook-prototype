@@ -9,6 +9,8 @@
 import UIKit
 
 class NewsFeedViewController: UIViewController {
+    
+    var refreshControl: UIRefreshControl!
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var imageView: UIImageView!
@@ -31,7 +33,11 @@ class NewsFeedViewController: UIViewController {
             self.scrollView.userInteractionEnabled = true
         }
         
+        refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: "onRefresh", forControlEvents: UIControlEvents.ValueChanged)
+        
         scrollView.contentSize = imageView.frame.size
+        scrollView.insertSubview(refreshControl, atIndex: 0)
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,15 +45,9 @@ class NewsFeedViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func onRefresh() {
+        delay(2.0) {
+            self.refreshControl.endRefreshing()
+        }
     }
-    */
-
 }
