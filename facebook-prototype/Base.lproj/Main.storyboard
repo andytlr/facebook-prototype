@@ -96,7 +96,7 @@
                                 <animations/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="m6J-kH-hv9">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="456"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="settings" id="Fb8-PS-EVq">
@@ -104,6 +104,14 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <animations/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mwy-pm-PjY">
+                                        <rect key="frame" x="0.0" y="1751" width="320" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <connections>
+                                            <action selector="tapLogout:" destination="cxq-Z2-K0U" eventType="touchUpInside" id="CM5-tS-Ddr"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <animations/>
                             </scrollView>
@@ -115,6 +123,7 @@
                     <connections>
                         <outlet property="imageView" destination="Fb8-PS-EVq" id="ZDF-c4-h5Q"/>
                         <outlet property="scrollView" destination="m6J-kH-hv9" id="R7Z-vH-6Un"/>
+                        <segue destination="Dw6-Fi-YL0" kind="modal" identifier="logout" animates="NO" modalTransitionStyle="crossDissolve" id="NpK-mO-4vV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E87-6f-fWg" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -24,6 +24,20 @@ class MoreViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func tapLogout(sender: AnyObject) {
+        let alertController = UIAlertController(title: "Are you sure you want to logout?", message: nil, preferredStyle: .ActionSheet)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { (action) in }
+        alertController.addAction(cancelAction)
+
+        let logoutAction = UIAlertAction(title: "Logout", style: .Destructive) { (action) in
+            self.performSegueWithIdentifier("logout", sender: nil)
+        }
+        alertController.addAction(logoutAction)
+        
+        presentViewController(alertController, animated: true) { }
+
+    }
 
     /*
     // MARK: - Navigation
